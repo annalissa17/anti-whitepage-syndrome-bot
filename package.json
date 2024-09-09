@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/superagent": "^4.1.18",
+    "typescript": "^5.5.4"
+  },
+  "name": "anti-whitepage-syndrome-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annalissa17/anti-whitepage-syndrome-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annalissa17/anti-whitepage-syndrome-bot/issues"
+  },
+  "homepage": "https://github.com/annalissa17/anti-whitepage-syndrome-bot#readme",
+  "description": "",
+  "dependencies": {
+    "@discordjs/builders": "^1.9.0",
+    "@discordjs/rest": "^1.7.1",
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.5",
+    "superagent": "^10.1.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
